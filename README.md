@@ -24,4 +24,4 @@
 
 <br>
 
-### 🎯 [Clique para acessar](https://geice-sousa.github.io/landing-page/) (página responsiva)
+### 🎯 [Clique para acessar](https://geice-sousa.github.io/GeiceSousa-landingPage/) (página responsiva)
