@@ -1,0 +1,21 @@
+.redes.sociais-final{
+    justify-content: space-around;
+    text-align: center;
+} 
+
+.redes.sociais-final a img{
+    margin-right: .5rem;
+    vertical-align: middle;
+}
+
+.redes.sociais-final a{
+    color: #464646;
+    margin: .5rem;
+    text-decoration: none;
+}
+
+.redes.sociais-final img{
+    border-radius: 45%;
+    margin: 0;
+    width: 25px;
+}

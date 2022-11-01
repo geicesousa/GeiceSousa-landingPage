@@ -1,0 +1,47 @@
+.experiencias--links li:nth-child(1),
+.experiencias--links li a{
+    color: #464646;
+    list-style: none;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.experiencias--links li a button{
+    background: none;
+    border: none;
+    font-size: smaller;
+    padding: 2px;
+    vertical-align:super;
+}
+
+button:hover{
+    text-transform: uppercase;
+    transform: scale(1.5);
+}
+
+@media screen and (min-width: 0){
+    .experiencias--links{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 1rem;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .experiencias--links{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+
+    .experiencias--links li:first-child{
+        margin: 2% 40%;
+    }
+
+    .experiencias--links li{
+        margin: 2rem 5rem;
+    }
+}

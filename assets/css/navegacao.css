@@ -1,0 +1,59 @@
+.navegacao-itens-lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navegacao-item--nome::before{
+    content: "✨";
+}
+.navegacao-item--contato a{
+    color: #464646 ;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0) {
+    .navegacao-item--sobremim, 
+    .navegacao-item--skills,
+    .navegacao-item--hobbies,
+    .navegacao-item--formacao,
+    .navegacao-item--projetos{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navegacao-item--sobremim, 
+    .navegacao-item--skills,
+    .navegacao-item--hobbies,
+    .navegacao-item--formacao,
+    .navegacao-item--projetos{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navegacao-item--sobremim, 
+    .navegacao-item--skills,
+    .navegacao-item--hobbies,
+    .navegacao-item--formacao,
+    .navegacao-item--projetos{
+        display: block;
+    }
+
+    .navegacao-itens-lista{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navegacao-itens-lista li:nth-child(1){
+        margin-right: 30%;
+    }
+    .navegacao-itens-lista li a{
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+}

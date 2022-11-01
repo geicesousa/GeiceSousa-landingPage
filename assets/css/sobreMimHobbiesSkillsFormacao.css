@@ -1,0 +1,46 @@
+
+.sobremim, .hobbies, .experiencias, .redes{
+    background: rgb(158, 158, 98);
+    border: 2px rgb(158, 158, 98) solid;
+}
+
+.sobremim--titulo, .skills--titulo, 
+.hobbies--titulo, .formacao--titulo, 
+.experiencias--titulo, .contato--titulo{
+    text-transform: uppercase;
+}
+
+.skills--imagem, 
+.formacao--imagem{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.skills--imagem img, .hobbies--imagem img,
+.formacao--imagem img, .experiencias--links img{
+    margin: .5em;  
+}
+
+.hobbies--imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.sobremim--texto, .formacao--texto{
+    text-align: justify;
+    width: 100%;
+}
+
+@media screen and (min-width:992px) {
+    
+    .sobremim--titulo, .skills--titulo, 
+    .hobbies--titulo, .formacao--titulo, 
+    .experiencias--titulo, .contato--titulo{
+        font-size: 1.2rem;
+    }
+}
