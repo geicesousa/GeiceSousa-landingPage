@@ -16,7 +16,7 @@
 
 <br>
 
-### ✨ 🎖️ Projeto construído para concretizar meus conhecimento novos no curso da Alura/ONE e compor meu portfólio 🌺 😊
+### ✨ 🎖️ Projeto construído para concretizar meus conhecimentos novos no curso da Alura/ONE e compor meu portfólio 🌺 😊
 
 <br>
 
