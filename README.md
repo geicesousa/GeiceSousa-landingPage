@@ -16,6 +16,8 @@
 
 <br>
 
+![miniatura da página](https://user-images.githubusercontent.com/109318160/201460543-f49da8fe-5f2a-4136-875d-508c2c87602d.png)
+
 ### ✨ 🎖️ Projeto construído para concretizar meus conhecimentos novos no curso da Alura/ONE e compor meu portfólio 🌺 😊
 
 <br>
@@ -25,3 +27,4 @@
 <br>
 
 ### 🎯 [Clique para acessar](https://geice-sousa.github.io/GeiceSousa-landingPage/) (página responsiva)
+
