@@ -1,5 +1,6 @@
 .contato{
     display: flex;
+    /* display: none; */
     flex-direction: column;
     text-align: start;
 }
