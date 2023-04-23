@@ -29,7 +29,7 @@ section{
     margin-bottom: -1.5rem;
 }
 
-a:hover{
+a:hover, #botao_contato:hover{
     text-transform: uppercase;
     transform: scale(1.2);
 }

@@ -1,6 +1,6 @@
 .contato{
-    display: flex;
-    /* display: none; */
+    /* display: flex; */
+    display: none;
     flex-direction: column;
     text-align: start;
 }
@@ -13,7 +13,7 @@
 
 }
 
-.contato--formulario form button{
+.contato--formulario form button, #botao_contato{
     align-items: center;
     align-self: center;
     border-bottom: 0;

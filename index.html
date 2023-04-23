@@ -222,18 +222,21 @@
             </div>
             
             <div class="contato--formulario">
-                <form type="text" id="contato--formulario">
+                <form id="contato--formulario">
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome Sobrenome">
+                    <input type="text" name="nome" id="nome" placeholder="Nome Sobrenome" required>
 
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="mail@contato.com">
+                    <input type="email" name="email" id="email" placeholder="mail@contato.com" required>
 
                     <label for="assunto">Assunto</label>
-                    <input type="text" name="assunto" id="assunto" placeholder="'Quero criar um site'">
+                    <input type="text" name="assunto" id="assunto" placeholder="'Quero criar um site'" required>
 
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
-                    <button id="botao_contato">Enviar</button>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+
+                    <p id="mensagem-envio"></p>
+
+                    <input  type="submit" id="botao_contato" value="Enviar"></input>
                 </form>
             </div>
         </section>

@@ -21,12 +21,12 @@ COMO PADDIG */
     justify-content: space-around;
     margin: 1rem;
 }
+
 .skills--imagem img, .hobbies--imagem img,
 .formacao--imagem img, .experiencias--links img{
     margin: 5px;  
     width: 100px;
 }
-
 
 .hobbies--imagem{
     display: flex;
@@ -41,7 +41,6 @@ COMO PADDIG */
 }
 
 @media screen and (min-width:992px) {
-    
     .sobremim--titulo, .skills--titulo, 
     .hobbies--titulo, .formacao--titulo, 
     .experiencias--titulo, .contato--titulo{
