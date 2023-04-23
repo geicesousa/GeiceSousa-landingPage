@@ -9,7 +9,8 @@
 }
 
 .redes.sociais-final a{
-    color: #464646;
+    color: black;
+     /* #464646; */
     margin: .5rem;
     text-decoration: none;
 }

@@ -1,19 +1,18 @@
 .contato{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     text-align: start;
 }
 
-.contato-formulario input, textarea{
+.contato--formulario input, textarea{
     border-radius: .2rem;
     display: flex;
-    margin: .5rem;
-    padding: 1rem;
+    margin: .1rem 0 .5rem 0;
+    padding: .3rem;
 
 }
 
-.contato-formulario form button{
+.contato--formulario form button{
     align-items: center;
     align-self: center;
     border-bottom: 0;

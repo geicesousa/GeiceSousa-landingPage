@@ -1,9 +1,11 @@
 
-.sobremim, .hobbies, .experiencias, .redes{
+
+.sobremim, .hobbies, .experiencias{ /* .redes */
     background: rgb(158, 158, 98);
     border: 2px rgb(158, 158, 98) solid;
 }
-
+/* MUDAR O BODY DE 2% E COLOCAR NOS FILHOS 
+COMO PADDIG */
 .sobremim--titulo, .skills--titulo, 
 .hobbies--titulo, .formacao--titulo, 
 .experiencias--titulo, .contato--titulo{
@@ -21,8 +23,10 @@
 }
 .skills--imagem img, .hobbies--imagem img,
 .formacao--imagem img, .experiencias--links img{
-    margin: .5em;  
+    margin: 5px;  
+    width: 100px;
 }
+
 
 .hobbies--imagem{
     display: flex;
@@ -32,7 +36,7 @@
 }
 
 .sobremim--texto, .formacao--texto{
-    text-align: justify;
+    line-height: 1.5;
     width: 100%;
 }
 

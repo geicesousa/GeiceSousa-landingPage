@@ -7,18 +7,25 @@
 body{
     background: rgb(128, 128, 85);
     font-family: 'Gayathri', sans-serif;
-    margin: 2%;
+    margin: 2rem;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 img{
     width: 100px;
 }
 
 section{
-    margin: 2%;
+    margin: 0 -2rem;
+    padding: 1rem;
 }
 
 .rodape{
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -1.5rem;
 }
 
